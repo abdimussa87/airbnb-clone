@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.header__logo {
+  object-fit: contain;
+  height: 100px;
+}
+
+.header__middle {
+  display: flex;
+  align-items: center;
+  border-radius: 999px;
+  border: 1px solid gray;
+  padding: 8px 10px 8px 30px;
+}
+
+.header__middle > input {
+  border: none;
+  outline-width: 0px;
+}
+
+.header__right {
+  display: flex;
+  width: 200px;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__right > p {
+  font-weight: 500;
+  font-size: medium;
+}
