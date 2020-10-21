@@ -10,8 +10,8 @@ function Header() {
             <img className='header__logo' src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSlCX_KCBoFMSJ8ocIWvCaHDwhcN4DEgnkMYg&usqp=CAU" alt="Airbnb Logo" />
 
             <div className='header__middle'>
-                <input type="text" />
-                <SearchIcon />
+                <input type="text" placeholder='Search your host' />
+                <SearchIcon style={{ color: '#ff7779' }} />
             </div>
             <div className="header__right">
                 <p>Become a host</p>

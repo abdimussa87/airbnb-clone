@@ -1,5 +1,6 @@
 .header {
   display: flex;
+  background-color: white;
   align-items: center;
   justify-content: space-between;
   position: sticky;
@@ -9,7 +10,7 @@
 
 .header__logo {
   object-fit: contain;
-  height: 100px;
+  height: 70px;
 }
 
 .header__middle {
