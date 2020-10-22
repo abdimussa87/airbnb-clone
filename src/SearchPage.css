@@ -1,0 +1,15 @@
+.searchPage__info {
+  padding: 10px;
+}
+
+.searchPage__info > h3 {
+  margin: 15px 0;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.searchPage__info > button {
+  margin: 5px;
+  text-transform: none;
+  border-radius: 999px;
+}

@@ -1,5 +1,11 @@
 .datePicker {
-  z-index: 999;
+  z-index: 1;
+  width: 559px;
+  margin: auto;
+}
+.datePicker__guests {
+  background-color: white;
+  width: 579px;
 }
 .datePicker__guests > h2 {
   display: flex;
@@ -20,7 +26,8 @@
 .datePicker > center > button {
   color: white;
   background-color: #ff7779;
-  width: 539px;
+  width: 579px;
+  border-radius: 0;
 }
 
 .datePicker > center > button:hover {

@@ -2,7 +2,9 @@ import React, { useState } from 'react'
 import './Banner.css'
 import { Button } from '@material-ui/core'
 import DatePicker from './DatePicker';
+import { useHistory } from 'react-router-dom';
 function Banner() {
+    const history = useHistory();
     const [showDatePicker, setShowDatePicker] = useState(false);
     return (
         <div className='banner'>
@@ -17,7 +19,7 @@ function Banner() {
                 <h5>
                     Settle in somewhere new. Discover stays to live, work, or just relax.
                   </h5>
-                <Button variant='outlined'>
+                <Button variant='outlined' onClick={() => history.push('/search')} >
                     Explore nearby
                   </Button>
             </div>

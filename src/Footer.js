@@ -7,10 +7,10 @@ function Footer() {
                 @2020 Airbnb clone! All rights reserved by Abdi
             </p>
             <p>
-                <a href="#">Privacy •</a>
-                <a href="#"> Terms •</a>{' '}
-                <a href="#">Sitemap •</a>
-                <a href="#">Company-Details</a>
+                <a href="/">Privacy •</a>
+                <a href="/"> Terms •</a>{' '}
+                <a href="/">Sitemap •</a>
+                <a href="/">Company-Details</a>
             </p>
         </div>
     )
